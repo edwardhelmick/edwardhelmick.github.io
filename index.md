@@ -29,7 +29,9 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html)
+
 [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html)
+
 [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html)
 
 ### Jekyll Themes
