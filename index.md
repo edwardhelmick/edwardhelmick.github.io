@@ -1,8 +1,7 @@
-### Eddie Helmick, Capstone e-Portfolio
+### Eddie Helmick, CS499 Portfolio
 
-##### [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html) <br />
-##### [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html) <br />
-##### [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html) <br />
+##### [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html)  |  [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html)  |  [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html)
+
 
 ### Jekyll Themes
 
@@ -10,5 +9,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-
-##### [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html)  |  [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html)  |  [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html)
