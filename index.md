@@ -1,6 +1,6 @@
 ### Eddie Helmick, Capstone e-Portfolio
 
-* [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html) <br />
+### * [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html) <br />
 * [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html) <br />
 * [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html) <br />
 
