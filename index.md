@@ -11,8 +11,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
-[Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html) | 
-[Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html) | 
-[Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html)
---|--
-
+##### [Enhancement One](https://edwardhelmick.github.io/EnhancementOne.html)  |  
+##### [Enhancement Two](https://edwardhelmick.github.io/EnhancementTwo.html)  |  
+##### [Enhancement Three](https://edwardhelmick.github.io/EnhancementThree.html)
