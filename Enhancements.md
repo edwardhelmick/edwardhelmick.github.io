@@ -2,15 +2,21 @@
 
 ##### [Self Assessment](https://edwardhelmick.github.io/index.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
 
+What artifact did I choose?
+Why did I choose it?
+
 ### Enhancement One: Software Design and Engineering
 
-Text here about enhancement one..
+What did I achieve with this enhancement?
+What did I learn?
 
 ### Enhancement Two: Algorithms and Data Structures
 
-Text here about enhancement two..
+What did I achieve with this enhancement?
+What did I learn?
 
 ### Enhancement Three: Databases
 
-Text here about enhancement three..
+What did I achieve with this enhancement?
+What did I learn?
 
