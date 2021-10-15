@@ -1,6 +1,6 @@
 ## CS499 Portfolio, Eddie Helmick
 
-##### [Enhancements](https://edwardhelmick.github.io/EnhancementOne.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
+##### [Enhancements](https://edwardhelmick.github.io/Enhancements.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
 
 ### Jekyll Themes
 
