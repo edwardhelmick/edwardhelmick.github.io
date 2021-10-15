@@ -1,4 +1,4 @@
-## Enhancements
+# Enhancements
 
 ##### [Self Assessment](https://edwardhelmick.github.io/index.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
 
