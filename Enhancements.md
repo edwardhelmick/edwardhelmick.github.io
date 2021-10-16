@@ -38,6 +38,26 @@ TripDetails tripDetails = collection.Where(c => c.Id == id).FirstOrDefault();
 
 ### Enhancement Three: Databases
 
-What did I achieve with this enhancement?
-What did I learn?
+During the final section of my project enhancements, which focused on database implementation and improvement, I decided to work through getting a hosted cluster running on the MongoDB website. I am using a free student version which is very limited but was sufficient for this project. As mentioned above, I spent a lot of time working with MongoDB and understanding how the drivers worked – which also meant understanding how to configure the cluster, create a new table, and add information to it programmatically. It was quite a fun experience! In addition to setting up this hosted cluster, I implemented some more advance database querying. As an example, I implemented an asynchronous update method, which uses the Builders MongoDB driver class – a static helper class which does various things. In this case, it is building the new object to replace the old one, therefore updating the information in the object.
+
+```
+var update = collection.FindOneAndUpdateAsync(Builders<TripDetails>.Filter.Eq("Id", trip.Id), Builders<TripDetails>.Update
+                    .Set("Code", trip.Code)
+                    .Set("Name", trip.Name)                    
+                    .Set("LengthDays", trip.LengthDays)
+                    .Set("StartDate", trip.StartDate)
+                    .Set("ResortName", trip.ResortName)
+                    .Set("CostPerPerson", trip.CostPerPerson)
+                    .Set("Img_Base64", trip.Img_Base64)
+                    .Set("Description", trip.Description));
+```
+Another interesting thing that I have done is used a string field labeled Img_Base64 to store the base64 image string that a user uploads to the application. This is a good way to manage image storage on a database, and is quick to convert back to an image for showing on a page, as seen below.
+
+```
+string img = item.Img_Base64;
+if (!String.IsNullOrEmpty(img)) {
+ <img src="data:image/png;base64, @img" style="height: 200px; width: 200px;" />
+}
+```
+
 
