@@ -41,14 +41,14 @@ During the final section of my project enhancements, which focused on database i
 
 ```
 var update = collection.FindOneAndUpdateAsync(Builders<TripDetails>.Filter.Eq("Id", trip.Id), Builders<TripDetails>.Update
-                    .Set("Code", trip.Code)
-                    .Set("Name", trip.Name)                    
-                    .Set("LengthDays", trip.LengthDays)
-                    .Set("StartDate", trip.StartDate)
-                    .Set("ResortName", trip.ResortName)
-                    .Set("CostPerPerson", trip.CostPerPerson)
-                    .Set("Img_Base64", trip.Img_Base64)
-                    .Set("Description", trip.Description));
+        .Set("Code", trip.Code)
+        .Set("Name", trip.Name)                    
+        .Set("LengthDays", trip.LengthDays)
+        .Set("StartDate", trip.StartDate)
+        .Set("ResortName", trip.ResortName)
+        .Set("CostPerPerson", trip.CostPerPerson)
+        .Set("Img_Base64", trip.Img_Base64)
+        .Set("Description", trip.Description));
 ```
 Another interesting thing that I have done is used a string field labeled Img_Base64 to store the base64 image string that a user uploads to the application. This is a good way to manage image storage on a database, and is quick to convert back to an image for showing on a page, as seen below.
 
