@@ -3,8 +3,7 @@
 ##### [Self Assessment](https://edwardhelmick.github.io/index.html) | [Enhancements](https://edwardhelmick.github.io/Enhancements.html)
 
 ### Code Review (Pre-Development)
-For my project, I am working on three enhancements, software engineering and design, algorithms and data structures, and databases, which together showcase my skills as a developer. I am going to transform a MEAN stack application called Travlr Getaways, which was worked on in my Full Stack Engineering class, to an ASP.NET/C# framework while adding extra features and focusing mainly on administrative interfaces. Below is an analysis of some code which I wish to change, and the reasons why. Generally speaking, all of the issues I find in code here are going to be solved by moving to the ASP.NET framework. The repository of this code review can be found [here]
-(https://github.com/edwardhelmick/CS465/settings/access). 
+For my project, I am working on three enhancements, software engineering and design, algorithms and data structures, and databases, which together showcase my skills as a developer. I am going to transform a MEAN stack application called Travlr Getaways, which was worked on in my Full Stack Engineering class, to an ASP.NET/C# framework while adding extra features and focusing mainly on administrative interfaces. Below is an analysis of some code which I wish to change, and the reasons why. Generally speaking, all of the issues I find in code here are going to be solved by moving to the ASP.NET framework. The repository of this code review can be found [here](https://github.com/edwardhelmick/CS465/settings/access). 
 
 ### Enhancement One: Software Engineering and Design
 
