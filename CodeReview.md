@@ -86,7 +86,7 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 ```
-Migrating these specific bits of code to the ASP.NET framework will likely prove to be the most challenging part of the entire project. 
+Migrating these specific bits of code to the ASP.NET framework will likely prove to be the most challenging part of the entire project. I am confident it can be done efficently, though, and I believe I will be able to clean the code up a bit and make it more readable and modular.
 
 ### Enhancement Two: Algorithms and Data Structures
 
