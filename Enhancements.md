@@ -53,7 +53,7 @@ var update = collection.FindOneAndUpdateAsync(Builders<TripDetails>.Filter.Eq("I
 Another interesting thing that I have done is used a string field labeled Img_Base64 to store the base64 image string that a user uploads to the application. This is a good way to manage image storage on a database, and is quick to convert back to an image for showing on a page, as seen below.
 
 ```
-string img = item.Img_Base64;
+string img = trip.Img_Base64;
 if (!String.IsNullOrEmpty(img)) {
  <img src="data:image/png;base64, @img" style="height: 200px; width: 200px;" />
 }
