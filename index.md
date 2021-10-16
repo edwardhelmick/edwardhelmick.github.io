@@ -2,6 +2,19 @@
 
 ##### [Enhancements](https://edwardhelmick.github.io/Enhancements.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
 
+### About Me
+As the title suggests, my name is Eddie Helmick. As of writing this, I am 28 years old and have been working on my Bachelors of Science in Computer Science since I was 25. Previous to going to school, my career was in sales. I managed a large staff of employees and together we achieved a lot. I always knew in my heart that I wanted to work in the tech world - I have a tinkerer's brain. After I achieved all of the goals I had for myself in the industry, I decided to move on to school. I was successful in finding a software engineering job after I finished up my first two years of college, and that's where I still work today. Besides my passion for work, I enjoy spending time with my friends, my dog, and my lovely soon to be wife. This journey would not have been possible without the support from these wonderful people and of course my wonderful pup.
+
+### Education Journey and Reflection
+
+### Future Goals and Areas of Interest
+
+
+
+
+
+
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edwardhelmick/edwardhelmick.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
