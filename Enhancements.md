@@ -29,6 +29,13 @@ Additionally, I spent a lot of time learning how models were initialized differe
 ### Enhancement Two: Algorithms and Data Structures
 
 During this section of my project enhancement, I decided to add in LINQ. LINQ stands for language integrated query. It is a powerful tool in C# which allows you to aggregate and manipulate data sets efficiently. I thought it would be useful to spend some time learning and using LINQ in this project since it is widely used in ASP.NET applications throughout the industry. Using LINQ, I was able to aggregate all of the trips from the database and send them to the trips view for user interaction. I also used LINQ to find specific records by ID in the list of trips to delete and update records. The integration of LINQ to this project has increased efficiency and would allow for the application to scale significantly had it been a real-life production application.
+
+Example of LINQ being used in the application:
+```
+//get the trips object where the object id is the id being searched for
+TripDetails tripDetails = collection.Where(c => c.Id == id).FirstOrDefault();
+```
+
 ### Enhancement Three: Databases
 
 What did I achieve with this enhancement?
