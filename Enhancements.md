@@ -1,6 +1,6 @@
-##### [Self Assessment](https://edwardhelmick.github.io/index.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
-
 ## Enhancements
+
+##### [Self Assessment](https://edwardhelmick.github.io/index.html)  |  [Code Review](https://edwardhelmick.github.io/CodeReview.html)
 
 For my computer science capstone at Southern New Hampshire University, I chose one artifact to focus on enhancing throughout the entire course. The artifact I chose to enhance is Travlr Getaways – a web application on the MEAN stack (MongoDB, ExpressJS, AngularJS, and Node) which was worked on in my previous Full Stack Engineering class. This artifact was a great choice for this enhancement project because it is a large application with endless opportunities for creative change and improvements. I learned a lot while transforming this application and enjoyed the experience.
 
@@ -10,9 +10,7 @@ I decided to transform this application from a MEAN stack application to an ASP.
 
 ### Enhancement Two: Algorithms and Data Structures
 
-What did I achieve with this enhancement?
-What did I learn?
-
+During this section of my project enhancement, I decided to add in LINQ. LINQ stands for language integrated query. It is a powerful tool in C# which allows you to aggregate and manipulate data sets efficiently. I thought it would be useful to spend some time learning and using LINQ in this project since it is widely used in ASP.NET applications throughout the industry. Using LINQ, I was able to aggregate all of the trips from the database and send them to the trips view for user interaction. I also used LINQ to find specific records by ID in the list of trips to delete and update records. The integration of LINQ to this project has increased efficiency and would allow for the application to scale significantly had it been a real-life production application.
 ### Enhancement Three: Databases
 
 What did I achieve with this enhancement?
