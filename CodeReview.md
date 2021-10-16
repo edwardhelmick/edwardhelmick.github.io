@@ -28,6 +28,6 @@ The application uses a local database to store information. This means that if t
         "description": "<p>...</p>"
     }
 ```
-More text
+This is how the model is implemented in the current application. It is stored locally in a .JSON file. I plan on saving these JSON models to the database, and then use the MongoDB driver to retrieve them from the database, use LINQ to aggregate them and select them as necessary, and display them to the user on the view. LINQ is a nice addition to this and learning it will prove useful for me in the future. It is a highly productive tool and reduces developer error while improving efficiency. 
     
 
