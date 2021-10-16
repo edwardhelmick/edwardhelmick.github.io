@@ -59,4 +59,4 @@ if (!String.IsNullOrEmpty(img)) {
 }
 ```
 
-
+Using MongoDB has been the most extensive part of this application, and in my opinion the most informative. All applications that manage user data use a database, and the more I work with MongoDB, the more I understand how databases work. Using MongoDB has even helped me understand more about SQL, even though they are differently structured.
