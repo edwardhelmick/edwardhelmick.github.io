@@ -8,7 +8,85 @@ For my project, I am working on three enhancements, software engineering and des
 
 ### Enhancement One: Software Engineering and Design
 
-One thing I do not like about the current application is the messy structure of the code. If you look at the file structure, you can see that there are tons of files and a lot of this could be condensed and cleaned up. I personally find the ASP.NET file structure to be much cleaner. Besides my slight dislike of the file structure for MEAN applications, I do believe it will be beneficial for me to learn more about the ASP.NET framework and experience a code merge for such a large application. Developers often have to port applications to different languages and framework for compatibility across devices. A good example of this is an app developer who develops an application on iOS through swift but needs to port it to Java for Android. Having this experience will grant me great exposure to such a task. ASP.NET cleans up the code structure quite a bit but comes with a drawback – it could be less secure since client and server code are mixed within the same file through Razor syntax.  
+One thing I do not like about the current application is the messy structure of the code. If you look at the file structure, you can see that there are tons of files and a lot of this could be condensed and cleaned up. I personally find the ASP.NET file structure to be much cleaner. Besides my slight dislike of the file structure for MEAN applications, I do believe it will be beneficial for me to learn more about the ASP.NET framework and experience a code merge for such a large application. Developers often have to port applications to different languages and framework for compatibility across devices. A good example of this is an app developer who develops an application on iOS through swift but needs to port it to Java for Android. Having this experience will grant me great exposure to such a task. ASP.NET cleans up the code structure quite a bit but comes with a drawback – it could be less secure since client and server code are mixed within the same file through Razor syntax. Below is some code showing an example of how the application is using JavaScript to define routers and initalize application variables:
+
+```
+require('dotenv').config();
+
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var hbs = require('hbs');
+const passport = require('passport');
+
+require('./app_api/models/db');
+require('./app_api/config/passport');
+
+var indexRouter = require('./app_server/routes/index');
+var usersRouter = require('./app_server/routes/users');
+var travelRouter = require('./app_server/routes/travel');
+const apiRouter = require('./app_api/routes/index')
+
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'app_server', 'views'));
+
+// register handlebars partials (https://www.npmjs.com/package/hbs)
+hbs.registerPartials(path.join(__dirname, 'app_server', 'views/partials'));
+
+app.set('view engine', 'hbs');
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(passport.initialize());
+
+//allow CORS
+app.use('/api', (req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  next();
+});
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use('/travel', travelRouter);
+app.use('/api', apiRouter);
+
+//catch unauthorized error and create 401
+app.use((err, req, res, next) => {
+  if (err.name === 'UnauthorizedError') {
+    res
+      .status(401)
+      .json({"message": err.name + ": " + err.message});
+  }
+});
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+module.exports = app;
+```
+Migrating these specific bits of code to the ASP.NET framework will likely prove to be the most challenging part of the entire project. 
 
 ### Enhancement Two: Algorithms and Data Structures
 
