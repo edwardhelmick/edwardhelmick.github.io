@@ -26,7 +26,7 @@ The application uses a local database to store information. This means that if t
         "perPerson": "799.00",
         "image": "reef1.jpg",
         "description": "<p>...</p>"
-    },
+    }
 ```
 More text
     
