@@ -10,15 +10,4 @@ I have learned a lot throughout my educational journey. From simple to complex m
 
 ### Future Goals and Areas of Interest
 
-
-
-
-
-
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edwardhelmick/edwardhelmick.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
+As my journey as an undergrad Computer Science student comes to an end, I have been reflecting on where I want to go next. As I have mentioned, I have been fortunate enough to find a career as a software developer in my junior year of college. I plan to continue this career and continue learning as much as I can every day. I learn best by being curious, poking my head into every situation and trying to understand how I can achieve the solution. I learn by failing, reviewing my mistakes, and adjusting the plan for next time. I will continue to follow these self-guided rules as my career progresses. I will always be humble and always be willing to take advice and criticism. In the future, I hope to work with a company that provides medical support. I am passionate about technology, and I am passionate about medicine, so I feel that working in the medical tech field will satisfy that desire. I also want to start working towards a certification in Agile and Scrum. I feel that this development model is very useful and having extensive knowledge of it will allow me to provide better value to my future teammates and employers. Finally, I have decided that within the next year I want to start working towards a graduate degree in Software Engineering or a similar topic. This may be the end of my journey as a Computer Science undergrad student, but it is just the beginning of my career and the educational journey that will continue throughout my entire life.
