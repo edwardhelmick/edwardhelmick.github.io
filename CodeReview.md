@@ -90,6 +90,7 @@ Migrating these specific bits of code to the ASP.NET framework will likely prove
 ### Enhancement Two: Algorithms and Data Structures
 
 This application does not use any specific algorithm and uses JSON data structures since it uses MongoDB. My plan to improve this area of the application is to use LINQ (Language Integrated Query). It is a very powerful feature of C# which allows developers to quickly aggregate and manipulate data sets. Another thing I plan on doing is modifying the object model to use a base64 image string and convert it in the browser. This will allow for an easy way to store images in the database instead of in the file system.
+
 ### Enhancement Three: Databases
 
 The application uses a local database to store information. This means that if the application were deployed on the web to users, it would have to be taken down for each update. Instead, I will be setting up a MongoDB cluster hosted on the MongoDB site. This will allow for the application to be updated with data seamlessly and without system interruptions. For example, see the code snippet below:
@@ -107,4 +108,7 @@ The application uses a local database to store information. This means that if t
 ```
 This is how the model is implemented in the current application. It is stored locally in a .JSON file. I plan on saving these JSON models to the database, and then use the MongoDB driver to retrieve them from the database, use LINQ to aggregate them and select them as necessary, and display them to the user on the view. LINQ is a nice addition to this and learning it will prove useful for me in the future. It is a highly productive tool and reduces developer error while improving efficiency. 
     
+### Security Considerations
+
+There are a lot of things to consider when it comes to software security. In this project, I have taken a few things into account. For starters, I have locked the models down to only accept desired input, which will prevent unwanted inputs from being passed through to the controller. Unwanted inputs could lead to security vulnerabilities or unauthorized access to the database. It will also prevent server-side error, as the client will be unable to pass through data that might break the code base. Additionally, I have added error handling to properly deal with issues that may arise. Finally, ASP.NET by default utilizes IIS (Internet Information Server) to act as a web server for applications. IIS is decently secure, so a lot of the security needed for a basic application like this is already handled by it. IIS can be subject to some security vulnerabilities, though, such as malware and DDoS attacks.
 
